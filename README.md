@@ -38,3 +38,4 @@ location /yourl {
 }
 
 ```
+11. ~~HTTPS: TBD~~
