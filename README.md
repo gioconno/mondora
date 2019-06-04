@@ -31,7 +31,7 @@ EXPOSE 8080
 8. Eseguito il comando `mvn spring-boot:run` nel container con nome *zanchi* (`--name zanchi`), in background (`-d`) e mappando la porta 8080 del container alla porta 8080 del sistema ospite (`-p 8080:8080`)
    - `$ docker run -d -p 8080:8080 --name zanchi yourl mvn spring-boot:run`
 9. Installato nginx sul sistema ospite
-10. Modificato il file */etc/nginx/sites-available/default* in modo da reindirzzare lo URL [pr-zanchi.mondora.com/yourl](pr-zanchi.mondora.com/yourl) verso la porta 8080 del sistema (e quindi al servizio esposto)
+10. Modificato il file */etc/nginx/sites-available/default* in modo da reindirzzare lo URL [pr-zanchi.mondora.com/yourl](http://pr-zanchi.mondora.com/yourl) verso la porta 8080 del sistema (e quindi al servizio esposto)
 ```
 location /yourl {
     proxy_pass 127.0.0.1:8080/
