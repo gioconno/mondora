@@ -1,6 +1,3 @@
-
-
-
 FROM maven
 
 COPY pom.xml /
