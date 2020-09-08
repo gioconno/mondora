@@ -1,5 +1,5 @@
-# mondora
-Repo per test docker
+# Mondora technical test
+This was the final work shared for a job interview.
 
 ## Procedimento:
 1. Installato e testato docker-ce seguendo le relative [istruzioni](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
